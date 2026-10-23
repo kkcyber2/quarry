@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quarry"
+version = "1.0.0"
+description = 'Static triage for PE, ELF and documents — real format parsing, per-section entropy, packer heuristics, YARA-style rules.'
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "KK (Conan Sultan Khan)", email = "kkdev9715@gmail.com"}]
+keywords = ["quarry"]
+
+[project.urls]
+Homepage = "https://github.com/kkcyber2/quarry"
+Repository = "https://github.com/kkcyber2/quarry"
+
+[tool.setuptools]
+packages = ["quarry"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
