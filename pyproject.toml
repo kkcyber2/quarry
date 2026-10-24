@@ -9,7 +9,7 @@ description = 'Static triage for PE, ELF and documents — real format parsing, 
 readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
-authors = [{name = "KK (Conan Sultan Khan)", email = "kkdev9715@gmail.com"}]
+authors = [{name = "Konain Sultan Khan (KK)", email = "kkdev9715@gmail.com"}]
 keywords = ["quarry"]
 
 [project.urls]

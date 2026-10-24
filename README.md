@@ -4,7 +4,7 @@ Structural file triage. Reads containers by their bytes, never their extension.
 
 The suspicious case in triage is not a file called `malware.exe`. It is a file called `holiday.jpg` that is really a PE with a writable-and-executable section. quarry detects by magic bytes and parses the real headers, so the extension is irrelevant.
 
-**KK (Conan Sultan Khan)** · [github.com/kkcyber2](https://github.com/kkcyber2) · kkdev9715@gmail.com
+**Konain Sultan Khan (KK)** · [github.com/kkcyber2](https://github.com/kkcyber2) · kkdev9715@gmail.com
 
 ## Run it
 
